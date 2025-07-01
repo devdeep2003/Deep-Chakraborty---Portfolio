@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Instagram, Github } from "lucide-react";
 
 
 export default function Footer() {
@@ -67,29 +67,31 @@ export default function Footer() {
           <h3 className="text-gray-900 font-semibold mb-4">Follow Me</h3>
           <div className="flex space-x-4">
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61571349960206"
               className="text-gray-700 hover:text-blue-600 transition"
+               target="blank"
             >
               <Facebook size={20} />
             </a>
             <a
-              href="#"
-              className="text-gray-700 hover:text-blue-600 transition"
+              href="https://x.com/DeepChakra80505"
+              className="text-gray-700 hover:text-blue-600 transition" target="blank"
             >
               <Twitter size={20} />
             </a>
             <a
-              href="#"
-              className="text-gray-700 hover:text-blue-600 transition"
+              href="https://www.linkedin.com/in/deep-chakraborty-ab421b253/"
+              className="text-gray-700 hover:text-blue-600 transition" target="blank"
             >
               <Linkedin size={20} />
             </a>
             <a
-              href="#"
-              className="text-gray-700 hover:text-blue-600 transition"
+              href="https://www.instagram.com/_why_so_deep_/"
+              className="text-gray-700 hover:text-blue-600 transition" target="blank"
             >
               <Instagram size={20} />
             </a>
+            <a href="https://github.com/devdeep2003" className="text-gray-700 hover:text-blue-600 transition" target="blank"><Github size={20}/></a>
           </div>
         </div>
       </div>
