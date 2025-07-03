@@ -25,7 +25,7 @@ const Navbar = () => {
           <li className="cursor-pointer hover:text-blue-600" onClick={()=>navigate("")}>About</li>
           <li className="cursor-pointer hover:text-blue-600" onClick={()=>navigate("projects")}>Projects</li>
           <li className="cursor-pointer hover:text-blue-600" onClick={()=>navigate("extracurriculars")} >Extracurriculars</li>
-          <li className="cursor-pointer hover:text-blue-600 flex gap-1">Resume <DownloadIcon/></li>
+          <a href="/Deep_Chakraborty_s_Resume.pdf" download><li className="cursor-pointer hover:text-blue-600 flex gap-1">Resume <DownloadIcon size={20}/></li></a> 
         </ul>
 
         {/* Mobile Toggle Button */}
@@ -42,7 +42,7 @@ const Navbar = () => {
           <li className="cursor-pointer hover:text-blue-600" onClick={()=>navigate("")}>About</li>
           <li className="cursor-pointer hover:text-blue-600" onClick={()=>navigate("projects")}>Projects</li>
           <li className="cursor-pointer hover:text-blue-600" onClick={()=>navigate("extracurriculars")}>Extracurriculars</li>
-          <li className="cursor-pointer hover:text-blue-600 flex gap-1">Resume <DownloadIcon size={10}/></li>
+         <a href="/Deep_Chakraborty_s_Resume.pdf" download><li className="cursor-pointer hover:text-blue-600 flex gap-1">Resume <DownloadIcon size={20}/></li></a> 
         </ul>
       )}
     </nav>

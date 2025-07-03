@@ -39,7 +39,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/careers" className="hover:text-blue-600 transition">
+              <a href="/Deep_Chakraborty_s_Resume.pdf" download className="hover:text-blue-600 transition">
                 Resume
               </a>
             </li>
