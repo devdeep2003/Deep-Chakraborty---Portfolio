@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const About = () => {
@@ -18,6 +17,18 @@ const About = () => {
         <li><strong>Backend:</strong> Node.js, Express, Supabase, Firestore</li>
         <li><strong>Tools:</strong> Git, VS Code, Postman, Figma (basics), Vercel, Netlify</li>
       </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-2 text-blue-600">Experience</h2>
+      <div className="mb-6">
+        <h3 className="text-xl font-semibold text-white">User Interface Engineer, Pyramid AI Hub, Lawrenceville, GA</h3>
+        <p className="text-sm italic text-gray-300">Oct 2024 – Jan 2025</p>
+        <ul className="list-disc pl-6 mt-2 space-y-1 text-lg leading-relaxed">
+          <li>Built performant UI components using React for a retail anomaly detection system.</li>
+          <li>Collaborated in a 2-member team to develop and enhance responsive frontend features.</li>
+          <li>Optimized UI to reduce load times by 30%, significantly improving user experience.</li>
+          <li>Followed agile methodology and actively participated in code reviews and peer debugging.</li>
+        </ul>
+      </div>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2 text-blue-600">My Journey</h2>
       <p className="text-lg leading-relaxed mb-4">
