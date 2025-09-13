@@ -18,7 +18,8 @@ export const projectData = [
     "name": "Placement Notifier– Backend Service",
     "description": "Developed a Node.js backend with Express for a placement notification service, handling API routes, session management, and environment configurations. Implemented dotenv for secure environment variable management and structured the project with modular routes and middleware. Deployed successfully to a cloud platform with a professional README, ensuring scalability and production readiness.",
     "technologies": ["Node.js", "Express.js", "REST API"],
-    "year": "2025"
+    "year": "2025",
+    "link": "https://github.com/devdeep2003/Placement-Notifier"
   } , 
   {
     "id": 3,
@@ -26,6 +27,6 @@ export const projectData = [
     "description": "Created a campus guide for 300+ students with CGPA calculator, course info, and Maps navigation. Provided offline capabilities and improved onboarding during fresher’s week. Reduced orientation support workload by 60%.",
     "technologies": ["React Native", "Maps API"],
     "year": "2023",
-    "link": "https://github.com/devdeep2003/Placement-Notifier"
+    
   },
 ];
