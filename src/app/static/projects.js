@@ -27,7 +27,7 @@ export const projectData = [
     "name": "RSA Crypto Playground",
     "description": "A simple Node.js + Express application that demonstrates RSA encryption and decryption using Node’s built-in crypto module.",
     "technologies": ["Node JS", "Express JS" , "Crypto" , "HTML" , "JS"],
-    "year": "2023",
+    "year": "2025",
     "link": "https://github.com/devdeep2003/Cryptographic-Hashing-using-RSA"
     
   },
